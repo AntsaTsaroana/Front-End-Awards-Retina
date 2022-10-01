@@ -4,11 +4,12 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    margin: 0 0 4em 0;
 }
 .apropos .headings {
+    font-family: quicksand-semiBold;
     margin: 2em;
     font-size: 1.7em;
-    font-weight: bolder;
 }
 .apropos .headings h3 .blue {
     color: var(--blue);
@@ -16,13 +17,74 @@
 .apropos .cards {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     width: 80%;
 }
 .apropos .cards .card {
-    padding: 2em 1.7em;
+    cursor: pointer;
+    padding: 4em 2.7em;
     margin: 1em;
     border-radius: 1em;
-    /* min-width: 5em; */
     max-width: 35em;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    transition: .5s;
+    /* border: 1px solid var(--blue); */
+}
+.apropos .cards .card:hover {
+    box-shadow: 0 2px 30px rgba(0, 0, 0, 0.25);
+}
+.apropos .cards .card p {
+    line-height: 1.7;
+}
+.apropos .cards .card .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5em;
+    margin: 0 0 1em 0;
+    /* border: 1px solid red; */
+}
+.apropos .cards .card .title .logo svg {
+    width: 1.7em;
+    height: auto;
+}
+.apropos .cards .card:nth-child(1) .title,
+.apropos .cards .card:nth-child(3) .title {
+    text-align: right;
+    flex-direction: row-reverse;
+}
+.apropos .cards .card p a {
+    color: #1e7299;
+}
+.apropos .cards .card button {
+    /* position: absolute; */
+    margin: 2.5em 0 1em 75%;
+    color: white;
+    /* border: 1ps ; */
+    border: none;
+    padding: 1em 2.2em;
     background: var(--blue);
+    border-radius: 10em;
+    font-size: .9em;
+}
+.apropos .cards .card:nth-child(3):hover button {
+    animation: blink 1s infinite;
+}
+@keyframes blink {
+    /* 0% {
+        box-shadow: 0 0 10px var(--blue);
+    } */
+    50% {
+        box-shadow: 0 0 20px #2ca9e3b0;
+    }
+    100% {
+        box-shadow: 0 0 0 #2ca9e3b0;
+    }
+}
+@media (max-width: 1294px) {
+    .apropos .cards .card:nth-child(1) .title,
+    .apropos .cards .card:nth-child(3) .title {
+        text-align: left;
+        flex-direction: row;
+    }
 }
