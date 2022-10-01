@@ -8,9 +8,16 @@
     <title>Front-End Awards</title>
     <link rel="icon" type="image/x-icon" href="/Assets/img/f.png">
     <link rel="stylesheet" href="/Assets/css/style.css">
+    <link rel="stylesheet" href="/Assets/css/footer.css">
 </head>
 
 <body>
+    <section class="loader">
+        <div class="circle" id="c1"></div>
+        <div class="circle" id="c2"></div>
+        <div class="circle" id="c3"></div>
+        <div class="circle" id="c4"></div>
+    </section>
     <div class="container">
 
         <!-- Antsa -->
@@ -21,19 +28,19 @@
                         <img src="/Assets/img/Frontend.png" alt="logo">
                     </div>
                     <ul>
-                        <li>Accueil</li>
-                        <li>A-propos</li>
-                        <li>Partenaires</li>
-                        <li>Participants</li>
+                        <li><a href="#">Accueil</a></li>
+                        <li><a href="#apropos">A-propos</a></li>
+                        <li><a href="#partenaires">Partenaires</a></li>
+                        <li><a href="#participants">Participants</a></li>
                         <li>Contact</li>
                     </ul>
                     <div class="nav-mobile">
                         <a href="#">Accueil</a>
-                        <a href="#">A-propos</a>
-                        <a href="#">Partenaires</a>
-                        <a href="#">Participants</a>
-                        <a href="#">Contact</a>
-                        <button class="btnInscriptionMobile">Inscription</button>
+                        <a href="#apropos">A-propos</a>
+                        <a href="#partenaires">Partenaires</a>
+                        <a href="#participants">Participants</a>
+                        <a href="#contact">Contact</a>
+                        <a href="/inscription.html"><button class="btnInscriptionMobile">Inscription</button></a>
                     </div>
                     <button class="btnInscription">Inscription</button>
                     <button type="button" aria-label="burger Menu" class="toggle-nav">
@@ -49,7 +56,7 @@
                         <h1 class="firstH1">Frontend</h1>
                         <h1 class="secondH1">Awards</h1>
                         <p class="description">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ipsam, nihil maxime natus voluptas odio non repellendus laboriosam repudiandae blanditiis et quod, necessitatibus 
+                            Front-end award est un évènement organisé par Tech Zara, pour promouvoir les talents numériques à Madagascar et qui permet à la génération future des opportunités dont ils méritent dans le monde digital. 
                         </p>
                         <button>Get started</button>
                     </div>
@@ -62,27 +69,201 @@
 
         <main>
             <!-- Fanantenana -->
-            <section class="apropos">
+            <section class="apropos" id="apropos">
+                <div class="headings">
+                    <h3>Concours <span class="blue">Frontend Awards</span></h3>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <div class="title">
+                            <div class="logo">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+                                    <title>ionicons-v5-e</title>
+                                    <path d="M256,80A176,176,0,1,0,432,256,176,176,0,0,0,256,80Z"
+                                        style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px" />
+                                    <path
+                                        d="M200,202.29s.84-17.5,19.57-32.57C230.68,160.77,244,158.18,256,158c10.93-.14,20.69,1.67,26.53,4.45,10,4.76,29.47,16.38,29.47,41.09,0,26-17,37.81-36.37,50.8S251,281.43,251,296"
+                                        style="fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:28px" />
+                                    <circle cx="250" cy="348" r="20" />
+                                </svg>
+                            </div>
+                            <span>Qu'est ce que la Frontend Awards ?</span>
+                        </div>
+                        <p>Front-end award est un évènement<b> organisé par Tech Zara</b> , c’est un concours national pour les développeurs afin de montrer leurs compétences en matière de développement web côté front. Un sujet est donné pour les tous les équipes participants afin d’être sélectionné pour être nominée le prix de l’année.  </p>
+                    </div>
+                    <div class="card">
+                        <div class="title">
+                            <div class="logo">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+                                    <title>ionicons-v5-e</title>
+                                    <path
+                                        d="M248,64C146.39,64,64,146.39,64,248s82.39,184,184,184,184-82.39,184-184S349.61,64,248,64Z"
+                                        style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px" />
+                                    <polyline points="220 220 252 220 252 336"
+                                        style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px" />
+                                    <line x1="208" y1="340" x2="296" y2="340"
+                                        style="fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px" />
+                                    <path d="M248,130a26,26,0,1,0,26,26A26,26,0,0,0,248,130Z" />
+                                </svg>
+                            </div>
+                            <span>Qui peut participer ?</span>
+                        </div>
+                        <p>Pour participer, il faut faire l’inscription suivant le lien indiqué ci-dessus. La participation s’effectue par équipe composée de 2 personnes à 5 personnes maximum disponibles en présence physique durant le jour du concours. </p>
+                    </div>
+                    <div class="card">
+                        <div class="title">
+                            <div class="logo">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+                                    <title>ionicons-v5-j</title>
+                                    <path
+                                        d="M376,144c-3.92,52.87-44,96-88,96s-84.15-43.12-88-96c-4-55,35-96,88-96S380,90,376,144Z"
+                                        style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px" />
+                                    <path
+                                        d="M288,304c-87,0-175.3,48-191.64,138.6-2,10.92,4.21,21.4,15.65,21.4H464c11.44,0,17.62-10.48,15.65-21.4C463.3,352,375,304,288,304Z"
+                                        style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px" />
+                                    <line x1="88" y1="176" x2="88" y2="288"
+                                        style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px" />
+                                    <line x1="144" y1="232" x2="32" y2="232"
+                                        style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px" />
+                                </svg>
+                            </div>
+                            <span>Comment s'inscrire ?</span>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, sequi?</p>
+                        <a href="/inscription.html"><button>S'inscrire</button></a> 
+                    </div>
+                    <div class="card">
+                        <div class="title">
+                            <div class="logo">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+                                    <title>ionicons-v5-i</title>
+                                    <circle cx="184" cy="232" r="24" />
+                                    <path
+                                        d="M256.05,384c-45.42,0-83.62-29.53-95.71-69.83A8,8,0,0,1,168.16,304H343.85a8,8,0,0,1,7.82,10.17C339.68,354.47,301.47,384,256.05,384Z" />
+                                    <circle cx="328" cy="232" r="24" />
+                                    <circle cx="256" cy="256" r="208"
+                                        style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px" />
+                                </svg>
+                            </div>
+                            <span>Comment soutenir l'evenement ?</span>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ea qui reprehenderit ipsam esse
+                            fuga en nous <a href="#">evoyant un mail</a> .</p>
+                    </div>
+                </div>
 
             </section>
 
             <!-- Rojo -->
-            <section class="partenaires">
-
+            <section class="partenaires" id="partenaires">
+                    <h1 class="part-size">Nos partenaires</h1>
+                    <div class="bloc1">
+                        <div class="bloc1Item">
+                            <img src="Assets/img/techzara.PNG">
+                            <p>&emsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation</p>
+                        </div>
+                        <div class="bloc1Item">
+                            <img src="Assets/img/bocasay.PNG">
+                            <p>&emsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation</p>
+                        </div>
+                        <div class="bloc1Item">
+                            <img src="Assets/img/myagency.PNG">
+                            <p>&emsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation</p>
+                        </div>
+                        <div class="bloc1Item">
+                            <img src="Assets/img/novity.PNG">
+                            <p>&emsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation</p>
+                        </div>
+                        <div class="bloc1Item">
+                            <img src="Assets/img/pulse.PNG">
+                            <p>&emsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation</p>
+                        </div>
+                    </div>
             </section>
 
             <!-- Sitraka -->
-            <section class="participants">
-
+            <section class="participants" id="participants">
+                <h1 class="part-size">Les Participants</h1>
+                <div class="slide">
+                    <div class="slideEquipe0">
+                        <div class="unEquipe" style="background-image: url('Assets/img/team.png');"></div>
+                        <div class="unEquipe" style="background-image: url('Assets/img/team3.jpg');"></div>
+                        <div class="unEquipe" style="background-image: url('Assets/img/team4.png');"></div>
+                        <div class="unEquipe" style="background-image: url('Assets/img/team5.jpg');"></div>
+                    </div>
+                </div>
+                <div class="dotButton">
+                    <div class="dot" style="background-color: tomato;" value="0"></div>
+                    <div class="dot" value="1"></div>
+                    <div class="dot" value="2"></div>
+                    <div class="dot" value="3"></div>
+                </div>
+                <input class="oldValue" value="0" hidden></input>
+                <input class="newValue" value="0" hidden></input>
             </section>
         </main>
 
         <!-- Sitraka -->
         <footer>
-
+            <div class="footIcon">
+                <a href="#"><img src="Assets/img/location.png" class="foolIconImage"></a>
+                <a href="#"><img src="Assets/img/facebook.png" class="foolIconImage"></a>
+                <a href="#"><img src="Assets/img/email.png" class="foolIconImage"></a>
+            </div>
+            <div class="liste">
+                <div class="liste-bloc">
+                    <h4>Contact</h4>
+                    <p></p>
+                    <p><a href="#">010-020-0340</a></p>
+                    <p><a href="#">info@company.co</a></p>
+                </div>
+                <div class="liste-bloc">
+                    <h4>A Propos</h4>
+                    <ul>
+                        <li><a href="#">Developpement</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Concours</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Pricing</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="liste-bloc">
+                    <h4>Partenaires</h4>
+                    <ul>
+                        <li><a href="#">Techzara</a></li>
+                        <li><a href="#">My agency</a></li>
+                        <li><a href="#">Bocasai</a></li>
+                        <li><a href="#">Pulse</a></li>
+                        <li><a href="#">Novity</a></li>
+                    </ul>
+                </div>
+                <div class="liste-bloc">
+                    <h4>Front End Awards</h4>
+                    <div class="logo">
+                        <img src="assets/images/white-logo.png" alt="">
+                    </div>
+                    <p>Front-end award est un évènement organisé par Tech Zara, pour promouvoir les talents numériques à Madagascar.</p>
+                </div>
+            </div> 
         </footer>
     </div>
     <script src="/Assets/js/script.js"></script>
+    <script src="/Assets/js/main.js"></script>
 </body>
 
 </html>
