@@ -59,6 +59,7 @@
 .apropos .cards .card button {
     /* position: absolute; */
     margin: 2.5em 0 1em 75%;
+    cursor: pointer;
     color: white;
     /* border: 1ps ; */
     border: none;
@@ -66,6 +67,9 @@
     background: var(--blue);
     border-radius: 10em;
     font-size: .9em;
+}
+.apropos .cards .card button:hover {
+    background: #289bd1;
 }
 .apropos .cards .card:nth-child(3):hover button {
     animation: blink 1s infinite;
@@ -86,5 +90,10 @@
     .apropos .cards .card:nth-child(3) .title {
         text-align: left;
         flex-direction: row;
+    }
+}
+@media (max-width: 590px) {
+    .apropos .cards .card button {
+        margin: 2.5em 0 1em 75%;
     }
 }
