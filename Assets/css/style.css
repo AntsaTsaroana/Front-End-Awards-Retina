@@ -1,5 +1,5 @@
 /* RESET */
-
+@import url(./about.css);
 *,
 ::after,
 ::before {
@@ -10,6 +10,8 @@
 
 :root {
   --bg-color : #f3f3f3;
+  --blue: #2ca9e3;
+  --darkBlue: #120f22;
 }
 
 a {
