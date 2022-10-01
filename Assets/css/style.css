@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --bg-color : #f3f3f3;
+}
+
 a {
   text-decoration: none;
   color: #ffffff;
@@ -26,6 +30,7 @@ ul {
 
 body {
   font-family: "quicksand-regular";
+  background: var(--bg-color);
 }
 
 .container {
