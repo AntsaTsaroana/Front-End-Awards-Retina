@@ -1,0 +1,42 @@
+:root {
+    --title: #26abe4;
+    --text: #110e21;
+}
+
+/***********************************
+ | partenaires
+ ***********************************/
+.partenaires .content {
+    display: flex;
+    justify-content: center;
+    box-shadow: 3px 3px 3px #d9d7d7ad;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 5px;
+    align-content: center;
+    align-items: center;
+}
+
+.partenaires .title {
+    font-size: 25px;
+    color: var(--title);
+}
+
+.partenaires img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.partenaires img:not(:last-child){
+    margin-right: 20px;
+}
+
+
+@media (max-width:750px){
+    .partenaires .card {
+        display: grid;
+    }
+}

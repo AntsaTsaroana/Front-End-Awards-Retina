@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 367.98 367.98">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        stroke: #2ca9e3;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <circle class="cls-1" cx="183.99" cy="183.49" r="134"/>
+    </clipPath>
+  </defs>
+  <title>Asset 4</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g class="cls-2">
+        <g>
+          <line class="cls-3" x1="176.07" y1="1.41" x2="366.57" y2="191.91"/>
+          <line class="cls-3" x1="162.63" y1="14.85" x2="353.13" y2="205.35"/>
+          <line class="cls-3" x1="149.2" y1="28.28" x2="339.7" y2="218.78"/>
+          <line class="cls-3" x1="135.76" y1="41.72" x2="326.26" y2="232.22"/>
+          <line class="cls-3" x1="122.33" y1="55.15" x2="312.83" y2="245.65"/>
+          <line class="cls-3" x1="108.89" y1="68.59" x2="299.39" y2="259.09"/>
+          <line class="cls-3" x1="95.46" y1="82.02" x2="285.96" y2="272.52"/>
+          <line class="cls-3" x1="82.02" y1="95.46" x2="272.52" y2="285.96"/>
+          <line class="cls-3" x1="68.59" y1="108.89" x2="259.09" y2="299.39"/>
+          <line class="cls-3" x1="55.15" y1="122.33" x2="245.65" y2="312.83"/>
+          <line class="cls-3" x1="41.72" y1="135.76" x2="232.22" y2="326.26"/>
+          <line class="cls-3" x1="28.28" y1="149.2" x2="218.78" y2="339.7"/>
+          <line class="cls-3" x1="14.85" y1="162.63" x2="205.35" y2="353.13"/>
+          <line class="cls-3" x1="1.41" y1="176.07" x2="191.91" y2="366.57"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
