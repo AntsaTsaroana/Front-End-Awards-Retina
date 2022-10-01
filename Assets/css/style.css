@@ -23,3 +23,13 @@ ul {
   font-family: "quicksand-regular";
   src: url(/Assets/fonts/Quicksand/Quicksand-Regular.ttf);
 }
+
+body {
+  font-family: "quicksand-regular";
+}
+
+.container {
+  width: min(1366px, 100%);
+  height: 100vh;
+  margin: 0 auto;
+}
