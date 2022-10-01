@@ -1,3 +1,5 @@
+/* RESET */
+
 *,
 ::after,
 ::before {
@@ -13,4 +15,11 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+/* FONTS */
+
+@font-face {
+  font-family: "quicksand-regular";
+  src: url(/Assets/fonts/Quicksand/Quicksand-Regular.ttf);
 }
