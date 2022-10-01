@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Front-End Awards</title>
-    <link rel="stylesheet" href="/Assets/css/style.css">
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="Assets/css/sitraka.css">
 </head>
 
 <body>
@@ -29,16 +30,41 @@
 
             <!-- Sitraka -->
             <section class="participants">
+                <h1 class="part-size">Les Participants</h1>
+                <div class="slide">
+                   <div class="slideEquipe0">
+                    <div class="unEquipe" style="background-image: url('Assets/img/team.png');"></div>
+                    <div class="unEquipe" style="background-image: url('Assets/img/team.png');"></div>
+                    <div class="unEquipe" style="background-image: url('Assets/img/team.png');"></div>
+                    <div class="unEquipe" style="background-image: url('Assets/img/team.png');"></div>
+                </div>
+            </div>
+            <div class="dotButton">
+                <div class="dot" value="0"></div>
+                <div class="dot" value="1"></div>
+                <div class="dot" value="2"></div>
+                <div class="dot" value="3"></div>
+            </div>
+            <input class="oldValue" value="0" hidden ></input>
+            <input class="newValue" value="0" hidden ></input>
+        </section>
+    </main>
 
-            </section>
-        </main>
-
-        <!-- Sitraka -->
-        <footer>
-
-        </footer>
-    </div>
-    <script src="/Assets/js/script.js"></script>
+    <!-- Sitraka -->
+    <footer>
+        <div class="footIcon">
+            <a href="#"><img src="Assets/img/location.png" class="foolIconImage"></a>
+            <a href="#"><img src="Assets/img/facebook.png" class="foolIconImage"></a>
+            <a href="#"><img src="Assets/img/email.png" class="foolIconImage"></a>
+        </div>
+        <ul>
+            <li>frontEndAwards@mail.com</li>
+            <li>+261 32 12 345 67</li>
+        </ul>
+    </footer>
+</div>
+<script src="Assets/js/script.js"></script>
+<script src="Assets/js/sitraka.js"></script>
 </body>
 
 </html>
